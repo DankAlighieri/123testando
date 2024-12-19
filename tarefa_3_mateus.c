@@ -54,7 +54,7 @@ int main(){
                      break;
                 case 2: ValorConvertido = valor;                // Mililitros para Mililitros
                      break;
-                case 3: ValorConvertido = valor / 1000000;          // Mililitros para Metros cúbicos
+                case 3: ValorConvertido = valor / 1000000;      // Mililitros para Metros cúbicos
                      break;
             }
             break;
@@ -62,7 +62,7 @@ int main(){
             switch (Destino) {
                 case 1: ValorConvertido = valor * 1000;         // Metros cúbicos para Litros
                      break;
-                case 2: ValorConvertido = valor * 1000000;          // Metros cúbicos para Mililitros
+                case 2: ValorConvertido = valor * 1000000;      // Metros cúbicos para Mililitros
                      break;
                 case 3: ValorConvertido = valor;                // Metros cúbicos para Metros cúbicos
                      break;
